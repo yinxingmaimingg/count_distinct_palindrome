@@ -21,5 +21,4 @@ Note: The program is not in linear time. The main algorithm is in linear time, a
 
 
 Reference:
-
 Groult R, Prieur É, Richomme G. Counting distinct palindromes in a word in linear time. Information Processing Letters. 2010 Sep 30;110(20):908-12.
