@@ -26,8 +26,3 @@ def count_pali(s):
 	# print("Word:", s, "Pali:", len(dict)+1)
 	return len(dict)+1
 
-
-# x = "10011"
-# y = "0110"
-# print(count_pali("abbabaababa"))
-# print(count_pali("abbabaabbba"))

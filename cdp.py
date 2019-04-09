@@ -5,7 +5,7 @@ def isFactor(factor, whole):
 			return True
 	return False
 
-# stupid algorithm
+# a naive algorithm
 def computeLpf(w):
 	n = len(w)
 	lpf = []
@@ -16,7 +16,6 @@ def computeLpf(w):
 				lpf[i] = l
 	return lpf
 
-# stupid algorithm
 def getWordsLcp(u, v):
 	l = min(len(u), len(v))
 	for i in range(l):
@@ -24,7 +23,7 @@ def getWordsLcp(u, v):
 			return i
 	return l
 
-# stupid algorithm
+# a naive algorithm
 def computeLcp(w):
 	lcp = []
 	w_ = w[::-1]
@@ -70,6 +69,6 @@ def countDistinctPali(w):
 	return nbPal
 
 
-
-# w = "abbabaabbba"
-# print(countDistinctPali(w))
+if __name__=="__main__":
+	w = input("Please input a word:")
+	print("Number of distinct palindromes:",countDistinctPali(w))
